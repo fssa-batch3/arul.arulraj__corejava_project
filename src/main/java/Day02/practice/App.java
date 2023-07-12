@@ -14,15 +14,14 @@ public class App {
 		System.out.println(user.getId());
 		System.out.println(user.getEmailId());
 		System.out.println(user.getPassword());
+
 		
-		Logger logger = new Logger();
-		
-		logger.debug("debug");
-		logger.error("error");
-		logger.info("info");
-		logger.debug(10);
-		logger.error(15);
-		logger.info(20);
+		Logger.debug("debug");
+		Logger.error("error");
+		Logger.info("info");
+		Logger.debug(10);
+		Logger.error(15);
+		Logger.info(20);
 		
 
 	}
