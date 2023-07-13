@@ -12,7 +12,7 @@ public class RightAngledTriangle extends Rectangle{
 		}
 	@Override
 	public double calculatePerimeter() {
-		  double perimeter = super.calculatePerimeter();
+		  double perimeter = super.calculatePerimeter()/2;
 		  return perimeter + this.c;
 		}
 	
