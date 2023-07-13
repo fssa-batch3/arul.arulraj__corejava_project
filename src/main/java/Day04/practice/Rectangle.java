@@ -22,7 +22,7 @@ public class Rectangle extends Polygon {
 	}
 	
 	public double calculatePerimeter() {
-		return 2*(this.length * this.breadth);
+		return 2*(this.length + this.breadth);
 	}
 	
 	public int getNumberOfSides() {
