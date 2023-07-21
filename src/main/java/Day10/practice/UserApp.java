@@ -86,9 +86,9 @@ public class UserApp{
 	
 	public static void main(String[] args) {
 		try {
-			User user1 = new User("Sesslyn", "sesslyn2004@gmail.com", 1);
-			User user2 = new User("Jerusheya", "jerusheya2002@gmail.com", 2);
-			User user3 = new User("Sesslyn", "sesslyn2004@gmail.com", 1);
+			User user1 = new User("Ajun", "ajundcruzz05.com", 1);
+			User user2 = new User("Abilash", "jerusheya2002@gmail.com", 2);
+			User user3 = new User("Ajun", "ajundcruzz05.com", 1);
 			
 			UserValidator.register(user1); 
 			UserValidator.register(user2); 
